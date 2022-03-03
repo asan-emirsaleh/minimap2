@@ -37,8 +37,8 @@ alignment. This script *requires* the [k8 Javascript shell][k8] to run. On
 Linux or Mac, you can download the precompiled k8 binary with:
 
 ```sh
-curl -L https://github.com/attractivechaos/k8/releases/download/v0.2.4/k8-0.2.4.tar.bz2 | tar -jxf -
-cp k8-0.2.4/k8-`uname -s` $HOME/bin/k8  # assuming $HOME/bin in your $PATH
+curl -L https://github.com/attractivechaos/k8/releases/download/v0.2.5/k8-0.2.5.tar.bz2 | tar -jxf -
+cp k8-0.2.5/k8-`uname -s` $HOME/bin/k8  # assuming $HOME/bin in your $PATH
 ```
 
 It is highly recommended to copy the executable `k8` to a directory on your
