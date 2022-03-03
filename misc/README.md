@@ -5,7 +5,7 @@
 git clone https://github.com/lh3/minimap2
 cd minimap2 && make
 # install the k8 javascript shell
-curl -L https://github.com/attractivechaos/k8/releases/download/v0.2.5/k8-0.2.5.tar.bz2 | tar -jxf -
+curl -L https://github.com/attractivechaos/k8/releases/download/0.2.5/k8-0.2.5.tar.bz2 | tar -jxf -
 cp k8-0.2.5/k8-`uname -s` k8              # or copy it to a directory on your $PATH
 # export PATH="$PATH:`pwd`:`pwd`/misc"    # run this if k8, minimap2 or paftools.js not on your $PATH
 minimap2 --cs test/MT-human.fa test/MT-orang.fa | paftools.js view -     # view alignment
@@ -37,7 +37,7 @@ alignment. This script *requires* the [k8 Javascript shell][k8] to run. On
 Linux or Mac, you can download the precompiled k8 binary with:
 
 ```sh
-curl -L https://github.com/attractivechaos/k8/releases/download/v0.2.5/k8-0.2.5.tar.bz2 | tar -jxf -
+curl -L https://github.com/attractivechaos/k8/releases/download/0.2.5/k8-0.2.5.tar.bz2 | tar -jxf -
 cp k8-0.2.5/k8-`uname -s` $HOME/bin/k8  # assuming $HOME/bin in your $PATH
 ```
 
